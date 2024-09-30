@@ -3,16 +3,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+img {
+    display: block; /* Garante que a imagem seja tratada como um bloco */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    max-width: 10%; /* Faz a imagem se ajustar ao tamanho do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    position: fixed;
+    top: 30px;
+}
+
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background: linear-gradient(to bottom, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
+
+footer{
+    height: 40px;
+    background-color: #f1f1f1; /* Cor de fundo do footer */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    font-weight: bolder;
+    bottom: 0; /* Posiciona o footer no fundo da página */
+    left: 0;
+
+}
+
 
 .container {
     background-color: #fff;
