@@ -3,40 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 img {
-    display: block; /* Garante que a imagem seja tratada como um bloco */
+    display: block; 
     margin: 0 auto;
-    width: auto; /* Centraliza horizontalmente */
-    max-width: 180px; /* Faz a imagem se ajustar ao tamanho do contêiner */
-    height: auto; /* Mantém a proporção da imagem */
+    width: auto; 
+    max-width: 150px; /* Ajuste o tamanho para dispositivos móveis */
+    height: auto; 
     position: fixed;
     top: 30px;
+    left: 50%;
+    transform: translateX(-50%); /* Centraliza a imagem horizontalmente */
 }
-
 
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    padding: 20px;
+    background: linear-gradient(to bottom, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
+    padding: 0 20px; /* Espaçamento lateral */
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column; /* Permite que o conteúdo fique em coluna */
     height: 100vh;
 }
 
-footer{
+footer {
     height: 40px;
-    background-color: #f1f1f1; /* Cor de fundo do footer */
+    background-color: #f1f1f1; 
     text-align: center;
     padding: 10px;
     position: fixed;
     width: 100%;
     font-weight: bolder;
-    bottom: 0; /* Posiciona o footer no fundo da página */
+    bottom: 0; 
     left: 0;
-
 }
-
 
 .container {
     background-color: #fff;
@@ -45,6 +46,7 @@ footer{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 600px;
     width: 100%;
+    margin-top: 80px; /* Adiciona margem superior para evitar sobreposição com a imagem */
 }
 
 h1 {
@@ -67,6 +69,7 @@ textarea {
     border-radius: 4px;
     border: 1px solid #ccc;
     margin-bottom: 20px;
+    resize: none; /* Impede redimensionamento da textarea */
 }
 
 button {
@@ -76,6 +79,7 @@ button {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-size: 16px; /* Aumenta o tamanho da fonte do botão */
 }
 
 button:hover {
@@ -91,4 +95,24 @@ pre {
     padding: 10px;
     border-radius: 4px;
     white-space: pre-wrap;
+    word-wrap: break-word; /* Permite que o texto quebre linhas */
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    body {
+        padding: 10px; /* Reduzir o padding em dispositivos menores */
+    }
+
+    h1 {
+        font-size: 24px; /* Ajusta o tamanho da fonte do título */
+    }
+
+    button {
+        font-size: 14px; /* Ajusta o tamanho da fonte do botão */
+    }
+
+    textarea {
+        font-size: 14px; /* Ajusta o tamanho da fonte da textarea */
+    }
 }
