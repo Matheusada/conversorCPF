@@ -5,7 +5,8 @@
 }
 img {
     display: block; /* Garante que a imagem seja tratada como um bloco */
-    margin: 0 auto; /* Centraliza horizontalmente */
+    margin: 0 auto;
+    width: auto; /* Centraliza horizontalmente */
     max-width: 180px; /* Faz a imagem se ajustar ao tamanho do contêiner */
     height: auto; /* Mantém a proporção da imagem */
     position: fixed;
