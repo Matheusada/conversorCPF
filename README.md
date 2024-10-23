@@ -35,7 +35,7 @@
 <h2>🛠️ Tecnologias Utilizadas</h2>
 
 <ul>
-  <li><strong>Linguagem:</strong> Python</li>
+  <strong>Linguagens:</strong>
   <li>HTML</li>
   <li>CSS</li>
   <li>JavaScript</li>
