@@ -41,20 +41,6 @@
   <li>JavaScript</li>
 </ul>
 
-<h2>📦 Como Instalar e Executar</h2>
-
-<ol>
-  <li>Clone este repositório: <br>
-    <code>git clone https://github.com/seu-usuario/conversor-cpf-secretaria-escolar.git</code>
-  </li>
-  <li>Instale as dependências necessárias (caso use bibliotecas externas): <br>
-    <code>pip install -r requirements.txt</code>
-  </li>
-  <li>Execute o script Python: <br>
-    <code>python conversor_cpf.py</code>
-  </li>
-</ol>
-
 <h2>🖥️ Exemplo de Uso</h2>
 
 <p>Ao abrir a interface gráfica, insira o número de CPF no campo indicado (apenas os números) e clique em "Converter". O CPF será formatado corretamente e exibido no formato <code>
