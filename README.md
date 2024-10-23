@@ -36,7 +36,9 @@
 
 <ul>
   <li><strong>Linguagem:</strong> Python</li>
-  <li><strong>Bibliotecas:</strong> Tkinter (para a interface gráfica), re (para validação de regex do CPF)</li>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
 </ul>
 
 <h2>📦 Como Instalar e Executar</h2>
